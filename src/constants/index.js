@@ -23,8 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
 
+
+} from "../assets";
+import next from '../assets/next.webp'
 export const navLinks = [
   {
     id: "about",
@@ -42,20 +44,22 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Web Development",
     icon: web,
   },
   {
-    title: "React  Developer",
+    title: "Front-End Specialist (React & Next.js)",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "API Design & Backend Integration",
     icon: backend,
   },
-
+  {
+    title: "Next.js Developer",
+    icon:creator, 
+  },
 ];
-
 const technologies = [
   {
     name: "HTML 5",
@@ -123,11 +127,11 @@ const experiences = [
     ],
   },
   {
-    title: "Intern",
-    company_name: "Internpe",
-    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF9YpGPTeR-x8-Nqta6qt5GQfe4t21krCagw&s', // Add an icon for Internpe if available
+    title: "Core Team Member",
+    company_name: "Google Developer Groups",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSjcChZaOkj8-qohDS-Gixb8e3eFcPPLjwP-LBTYWbQH00WyDu", // Add an icon for Internpe if available
     iconBg: "#E6DEDD",
-    date: "May 2024 - June 2024",
+    date:"Nov 2024",
     points: [
       "Assisted in developing web applications using React.js and Tailwind CSS.",
       "Collaborated with the team to implement user-centered designs and features.",
