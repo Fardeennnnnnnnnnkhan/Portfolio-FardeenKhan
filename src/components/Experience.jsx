@@ -1,7 +1,7 @@
 import React from 'react'
 import {VerticalTimeline , VerticalTimelineElement} from 'react-vertical-timeline-component'
 import {motion} from "framer-motion"
-
+import {Link} from 'react-router-dom'
 import 'react-vertical-timeline-component/style.min.css'
 
 import { styles } from '../styles'
@@ -28,6 +28,18 @@ const ExperienceCard = ({ experience }) => (
     <div>
       <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
       <p className='text-secondary text-[16px] font-semibold '>{experience.company_name}</p>
+      
+  
+    
+      <a 
+        href={experience.website} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="text-blue text-[16px] font-semibold"
+      >
+        Visit Website
+      </a>
+
     </div>
 
     <ul className='mt-5 list-disc ml-5 space-y-2'>
