@@ -23,7 +23,7 @@ function Contact() {
   const handleSubmit = (e)=>{
     e.preventDefault();
     setLoading(true);
-    emailjs.send('service_ymq60aw' , 'template_okops1p' , {
+    emailjs.send('service_ymq60aw', 'template_okops1p' , {
       from_name: form.name,
       to_name:'Fardeen Khan',
       from_email : form.email,

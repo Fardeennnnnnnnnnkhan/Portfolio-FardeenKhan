@@ -127,7 +127,7 @@ const experiences = [
     ],
   },
   {
-    title: "Core Team Member",
+    title: "Technical Team Member ",
     company_name: "Google Developer Groups",
     icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSjcChZaOkj8-qohDS-Gixb8e3eFcPPLjwP-LBTYWbQH00WyDu", // Add an icon for Internpe if available
     iconBg: "#E6DEDD",
@@ -139,7 +139,7 @@ const experiences = [
     ],
   },
   {
-    title: "Freelancer",
+    title: "FreeLance",
     company_name: "EaseLearn Project",
     icon: 'data:image/png;base64,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', // Placeholder icon, replace with actual icon if available
     iconBg: "#E0C3FC",
@@ -152,6 +152,23 @@ const experiences = [
       "Ensured smooth functionality across different devices and browsers.",
     ],
   },
+  {
+    title: "Full Stack Developer Intern",
+    company_name: "Astraeus Next Gen",
+    icon: 'https://media.licdn.com/dms/image/v2/D4E0BAQF9BfxReZlBwg/company-logo_100_100/company-logo_100_100/0/1724170026929?e=1745452800&v=beta&t=EnEqB7SDIHfjXrWuTxOWjhMK3xAA2T7QGqvcKYoRb74', // Placeholder icon, replace with actual icon if available
+    iconBg: "#E0C3FC",
+    date: "January 2025 - April 2025",
+    points: [
+      "Collaborated with the development team to design, develop, and maintain web applications using modern frameworks and technologies.",
+      "Worked on both front-end and back-end development with expertise in technologies like React.js, Angular, Node.js, Python, and Django.",
+      "Ensured code quality by writing efficient, reusable, and scalable code while participating in debugging and troubleshooting technical issues.",
+      "Developed innovative solutions for creating secure and scalable e-commerce platforms using data analytics and visualization techniques.",
+      "Assisted in creating automated workflows and ERP solutions for maritime trade, port operations, and logistics.",
+      "Contributed to the planning and design of database schemas and API integrations to support dynamic application functionality.",
+    ],
+  }
+
+
 ];
 const testimonials = [
   {
@@ -267,9 +284,9 @@ const projects = [
     source_code_link: "https://github.com/fardeenkhan748/blinkit-clone", // Replace with actual link
   },
   {
-    name: "F-Mart Clone",
+    name: "F-Mart",
     description:
-      "A full e-commerce app clone, including product categories, cart system, and seamless checkout with a responsive, user-friendly interface.",
+      "A full e-commerce app, including product categories, cart system, and seamless checkout with a responsive, user-friendly interface.",
     tags: [
       {
         name: "mongodb",
@@ -288,7 +305,7 @@ const projects = [
     source_code_link: "https://github.com/Fardeennnnnnnnnnkhan/F-Mart---An-E-Commerce-Shopping-App", // Replace with actual link
   },
   {
-    name: "Omegle Clone",
+    name: "Anonymous Chat and Video Calling App",
     description:
       "A video calling and chatting app clone with random connection features for video and text chats, focusing on real-time communication and user anonymity.",
     tags: [
@@ -309,29 +326,28 @@ const projects = [
     source_code_link: "https://github.com/Fardeennnnnnnnnnkhan/OmegleCloneByFardeen", // Replace with actual link
   },
   {
-    name: "Netflix Clone",
+    name: "eLearning Website",
     description:
-      "A responsive clone of the Netflix frontend, built using ReactJS and styled-components. Includes dynamic movie posters, interactive UI, and integration with the TMDB API.",
+      "A fully responsive eLearning platform built using ReactJS, Node.js, and MongoDB. Includes user registration, course enrollment, progress tracking, and a seamless learning experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "styled-components",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "tmdb-api",
+        name: "node.js",
         color: "green-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
     ],
-    image: 'https://images.ctfassets.net/y2ske730sjqp/5QQ9SVIdc1tmkqrtFnG9U1/de758bba0f65dcc1c6bc1f31f161003d/BrandAssets_Logos_02-NSymbol.jpg?w=940', // Add image link here
-    source_code_link: "https://github.com/Fardeennnnnnnnnnkhan/Netflix_Clone", // Replace with actual link
-},
-
+    image: 'https://t3.ftcdn.net/jpg/05/07/66/58/240_F_507665856_dFXIKJJ4SwROG0df8GNPBhqsZV44p6jn.jpg', // Replace with the actual image link
+    source_code_link: "https://github.com/Fardeennnnnnnnnnkhan/eLearning-Website", // Replace with the actual repository link
+  },
 {
-    name: "Notes Making App",
+    name: "Notes Making",
     description:
       "A web-based application that allows users to create, edit, and delete notes. Built using ReactJS, featuring persistent storage using localStorage.",
     tags: [
